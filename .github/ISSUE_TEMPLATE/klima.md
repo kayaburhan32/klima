@@ -1,9 +1,3 @@
----
-name: klima
-about: klima
-
----
-
 #include <IRremote.h>
 
 int RECV_PIN = 11;
@@ -76,4 +70,4 @@ void loop() {
     }
     irrecv.resume();
   }
-}
+} 
